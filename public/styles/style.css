@@ -75,11 +75,41 @@ html {
 }
 
 .socials {
-    text-align: center;
+  text-align: center;
 }
 
 .social-icon {
-    font-size: 40;
+  font-size: 40;
 }
 
+.footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.button {
+  margin-bottom: 30%;
+}
 
+a {
+  text-decoration: none;
+}
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  position: relative;
+  width: 70px;
+  height: 30px;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+
+  background-color: #eff8ff;
+
+  transition: background-color 0.3s;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #9ba2ff;
+}

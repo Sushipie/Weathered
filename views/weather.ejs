@@ -48,7 +48,7 @@
         <main>
             <div class="weather-card">
                 <section class="location">
-                    <div class="city"><i class="fas fa-map-marker-alt"></i> <%= location%></div>
+                    <div class="city"><%= location%> </div>
                     <div class="date"><%= date %> </div>
                 </section>
                 <div class="current">
@@ -72,6 +72,10 @@
         </main>
     </div>
 
-
-    <%- include('./partials/footer.ejs'); %>
+   
+        <div class="button">
+            <a href="/"><button class="btn" type="submit">Home</button> </a>
+            
+        </div>
+    
 </body>
